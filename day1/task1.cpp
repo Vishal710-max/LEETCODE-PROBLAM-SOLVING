@@ -47,7 +47,7 @@ int main() {
 
     // Call the function
     vector<int> result = sol.twoSum(nums, target);
-
+    cout<<"Here is Answer :";
     // Output the result
     if (!result.empty()) {
         cout << "Indices found: " << result[0] << " and " << result[1] << endl;
@@ -58,3 +58,4 @@ int main() {
 
     return 0;
 }
+
