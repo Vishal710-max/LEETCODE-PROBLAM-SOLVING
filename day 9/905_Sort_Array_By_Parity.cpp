@@ -74,6 +74,7 @@ public:
 // Test Cases
 
 int main() {
+   cout<<"Here is the Main Function";
     Solution sol;
     vector<int> nums1 = {3,1,2,4};
     vector<int> nums2 = {0};
@@ -87,4 +88,5 @@ int main() {
     for (int x : res2) cout << x << " "; cout << endl;
     for (int x : res3) cout << x << " "; cout << endl;
 }
+
 
