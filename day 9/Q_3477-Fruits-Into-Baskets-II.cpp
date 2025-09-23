@@ -72,6 +72,7 @@ public:
 };
 
 int main() {
+    cout<<"Here is the Main Function";
     Solution sol;
 
     // Test Case 1
@@ -97,3 +98,4 @@ int main() {
 
     return 0;
 }
+
