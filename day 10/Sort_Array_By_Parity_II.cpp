@@ -134,8 +134,8 @@ int main() {
 }
 
 
-//Expected Output:
-//Test Case 1:
+/*Expected Output:
+Test Case 1:
 Input: [4, 2, 5, 7]
 Output: [4, 5, 2, 7]
 Valid: Yes
@@ -156,3 +156,4 @@ Output: [648, 831, 560, 997, 192, 829, 986, 897, 424, 843] (or similar)
 Valid: Yes
 
 
+*/
