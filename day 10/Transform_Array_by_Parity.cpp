@@ -41,7 +41,7 @@ Space Complexity:
 
 */
 
-//class Solution {
+class Solution {
 public:
     vector<int> transformArray(vector<int>& nums) {
         int n = nums.size();
@@ -81,4 +81,5 @@ int main() {
 
  Output =>
  Output for [4,3,2,1]: 0 0 1 1 
+
  Output for [1,5,1,4,2]: 0 0 1 1 1 
