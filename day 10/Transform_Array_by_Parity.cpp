@@ -79,8 +79,9 @@ int main() {
     return 0;
 }
 
-// Output =>
-// Output for [4,3,2,1]: 0 0 1 1 
+/* Output =>
+ Output for [4,3,2,1]: 0 0 1 1 
 
  Output for [1,5,1,4,2]: 0 0 1 1 1 
 
+*/
