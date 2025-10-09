@@ -12,8 +12,7 @@ using namespace std;
 
 // If nums[i] + nums[j] == target, return {i, j}.
 
-// Time complexity: O(n²)
-
+// Time complexity: O(n²)
 // Space complexity: O(1)
 
 
