@@ -17,6 +17,7 @@ for nums1[i].
 
 /*
 # Intuition
+
 - A brute force way is to search to the right of each element in nums2 for the next
   greater element. This works but is O(n^2).
 - Optimized approach: Use a **monotonic stack**.
@@ -29,6 +30,7 @@ for nums1[i].
 - At the end, elements left in stack have no next greater → implicitly mapped to -1.
 
 # Approach
+
 1. Use a stack to build a map of {element → nextGreater}.
 2. Traverse nums2:
    - Pop from stack while top < current num, assign mapping.
@@ -109,6 +111,8 @@ int main() {
 
     return 0;
 }
+
+
 
 
 
